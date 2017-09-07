@@ -1,5 +1,5 @@
 web:
-  image: janakiramm/todo-app
+  image: guillierf/todo-app
   container_name: web
   ports:
    - "3000:3000"
