@@ -52,7 +52,7 @@ kubectl get svc
 ```
 kubectl get nodes
 curl <NODE_IP>:<NODE_PORT>
-
+```
 
 
 
