@@ -15,7 +15,7 @@ https://www.youtube.com/watch?v=NrzrpyMLWes
 
 ## Build a Docker image from existing node.js source code and push it to Docker Hub. Replace DOCKER_HUB_USER with your Docker Hub username.
 ```
-cd Build
+cd Build-Docker
 docker build . -t <DOCKER_HUB_USER>/todo-app
 docker login
 docker push <DOCKER_HUB_USER>/todo-app
@@ -33,7 +33,7 @@ curl localhost:3000
 
 ## Deploy the app to Kubernetes
 ```
-cd ../Deploy
+cd ../Deploy-Kubernetes
 kubectl create -f web-pod.yml
 kubectl create -f web-svc.yml
 kubectl create -f db-pod.yml
